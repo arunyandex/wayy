@@ -26,7 +26,7 @@ sudo apt install -y \
 echo -e "${GREEN}==> Installing build tools packages, done.${NC}\n"
 
 echo -e "${GREEN}==> Setting up build_changelog command ...${NC}"
-sudo curl https://raw.githubusercontent.com/MrCyjaneK/waydroid-build/main/build_changelog \
+sudo curl https://github.com/arunyandex/wayy/blob/main/build_changelog \
   -o /usr/bin/build_changelog || exit 1
 sudo chmod +x ${_} || exit 1
 echo -e "${GREEN}==> Setting up build_changelog command, done${NC}\n"
